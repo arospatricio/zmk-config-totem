@@ -51,7 +51,7 @@
             combo_save {
                 timeout-ms = <50>;
                 key-positions = <11 32>;
-                bindings = <LC(S)>;
+                bindings = <&kp LC(S)>;
             };
     };
 
