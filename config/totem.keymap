@@ -43,16 +43,6 @@
                 key-positions = <8 9>;
                 bindings = <&ctrlaltdel>;
             };
-            combo_sall {
-                timeout-ms = <50>;
-                key-positions = <10 32>;
-                bindings = <&kp LC(A)>;
-            };
-            combo_save {
-                timeout-ms = <50>;
-                key-positions = <11 32>;
-                bindings = <&kp LC(S)>;
-            };
     };
 
     macros {
