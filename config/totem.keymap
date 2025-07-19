@@ -43,6 +43,16 @@
                 key-positions = <8 9>;
                 bindings = <&ctrlaltdel>;
             };
+            combo_sall {
+                timeout-ms = <50>;
+                key-positions = <10 32>;
+                bindings = <&kp LC(A)>;
+            };
+            combo_save {
+                timeout-ms = <50>;
+                key-positions = <11 32>;
+                bindings = <&kp LC(S)>;
+            };
     };
 
     macros {
@@ -94,8 +104,8 @@ label= "BASE"                              ;
 
                 &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O       &kp P
                 &kp A       &kp S       &kp D       &kp F       &kp G           &kp H       &kp J       &kp K       &kp L       &kp SEMI
-      &kp LSHFT       &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &mt LCTRL FSLH    &mt LGUI BSLH
-                                        &kp LALT    &lt NAV TAB   &kp RET         &kp SPC   &lt SYM   &kp BSPC
+&kp LSHFT       &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &mt LCTRL FSLH    &mt LGUI BSLH
+                                        &kp LALT    &lt NAV TAB &kp RET         &kp SPC     &lt SYM   &kp BSPC
                         >;
                 };
 
@@ -145,9 +155,9 @@ label= "SYM"                               ;
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &kp EXCL    &kp AT      &kp HASH    &kp DLLR    &kp PRCNT       &kp CARET   &kp AMPS    &kp RA(U)   &kp SQT     &kp DQT       
-                &kp RA(A)   &trans      &kp RA(S)   &trans      &trans          &kp C_MUTE  &trans &trans &trans   &trans 
-    &trans      &kp RA(F18) &kp RA(F19) &trans      &trans      &trans          &kp C_VOL_DN &kp C_VOL_UP &trans &trans  &kp MINUS   &trans         
-                                        &trans      &gif        &mo ADJ         &trans      &kp C_PP    &trans         
+                &kp RA(A)   &trans      &kp RA(S)   &trans      &trans          &kp C_MUTE  &kp LS(RA(N4)) &kp RA(N5) &kp RA(N4)   &kp RA(O) 
+    &trans      &kp RA(F18) &kp RA(F19) &trans      &trans      &trans          &kp C_VOL_DN &kp C_VOL_UP &kp C_PREV &kp C_NEXT  &kp BSLH   &trans         
+                                        &trans      &gif        &mo ADJ         &trans      &kp C_PP    &trans      
                         >;
                 };
 
