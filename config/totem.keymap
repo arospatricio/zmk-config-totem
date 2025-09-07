@@ -109,8 +109,6 @@ base_mac_layer {
                 &kp A           &kp S           &kp D           &kp F           &kp G           &kp H           &kp J           &kp K           &kp L           &kp SEMI
 &mt LGUI LSHFT  &kp Z           &kp X           &kp C           &kp V           &kp B           &kp N           &kp M           &kp COMMA       &kp DOT         &mt LGUI FSLH &mt LCTRL BSLH
                                 &kp LALT        &lt NAV TAB     &kp RET         &kp SPC         &lt SYM ESC     &kp BSPC
-            // Agrega una tecla para alternar a Windows
-            &tog BASE_WIN
         >;
     };
 
