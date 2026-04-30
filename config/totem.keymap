@@ -95,8 +95,8 @@ label= "BASE_WIN"                              ;
 
                 &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O       &kp P
                 &mt LGUI A       &mt LALT S       &mt LSHFT D       &mt LCTRL F       &kp G           &kp H       &mt RCTRL J       &mt RSHFT K       &mt RALT L       &mt RGUI SEMI
-&mt LCTRL LSHFT &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &mt LCTRL FSLH    &mt LGUI BSLH
-                                        &kp LALT    &lt NAV TAB &kp RET         &kp SPC     &lt SYM ESC   &kp BSPC
+&kp LCTRL       &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &mt LCTRL FSLH    &mt LGUI BSLH
+                                        &kp LALT    &lt NAV TAB &kp RET         &kp SPC     &mo SYM   &kp BSPC
                         >;
                 };
 
@@ -108,7 +108,7 @@ base_mac_layer {
                 &kp Q           &kp W           &kp E           &kp R           &kp T           &kp Y           &kp U           &kp I           &kp O           &kp P
                 &kp A           &kp S           &kp D           &kp F           &kp G           &kp H           &kp J           &kp K           &kp L           &kp SEMI
 &mt LGUI LSHFT  &kp Z           &kp X           &kp C           &kp V           &kp B           &kp N           &kp M           &kp COMMA       &kp DOT         &mt LGUI FSLH &mt LCTRL BSLH
-                                &kp LALT        &lt NAV TAB     &kp RET         &kp SPC         &lt SYM ESC     &kp BSPC
+                                &kp LALT        &lt NAV TAB     &kp RET         &kp SPC         &mo SYM     &kp BSPC
         >;
     };
 
